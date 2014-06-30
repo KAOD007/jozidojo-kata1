@@ -12,6 +12,9 @@ public class App{
 	
 	LocalDateTime tenMinFromNow = now.plus(10, ChronoUnit.MINUTES);
 	System.out.println("Ten minutes from now it will be: "+ tenMinFromNow);
+	
+	LocalDateTime tenDaysFromNow = now.plus (10, ChronoUnit.DAYS);
+	System.out.println("Ten Days from now: "+ tenDaysFromNow);
 
 	}
 }
